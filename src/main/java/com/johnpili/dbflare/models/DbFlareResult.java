@@ -8,7 +8,7 @@ public class DbFlareResult implements IDbFlareResult {
     private Object result;
     private long dbExecutionTime;
     public List<String> errors;
-    public List<IField> fields;
+    public List<Field> fields;
 
     public DbFlareResult() {
         this.total = 0;
